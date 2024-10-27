@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Link Button */
+.blog-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #63c7ac;
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.blog-btn:hover {
+    background-color: #4bb599;
+}
+
+/* Header Styling */
+header {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* Section Styling */
+.section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+.h4-heading {
+    color: #000;
+    font-weight: bold;
+}
+
+p {
+    color: #000;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Responsive Image Styling */
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Quiz Section */
+.quiz {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e8f5e9;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Textarea and Button Styling */
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #63c7ac;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4bb599;
+}
+
+/* Footer Styling */
+footer  p{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .section {
+        margin: 15px;
+        padding: 15px;
+    }
+
+    h2, h3, .h4-heading {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog-btn {
+        padding: 8px 16px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    .section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .h4-heading {
+        font-size: 1rem;
+    }
+
+    ul li, p {
+        font-size: 0.95rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    header p {
+        font-size: 0.8rem;
+    }
+
+    .blog-btn {
+        padding: 7px 14px;
+        font-size: 0.9rem;
+    }
+
+    .section {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    h2, h3 {
+        font-size: 1.1rem;
+    }
+
+    .h4-heading, ul li, p {
+        font-size: 0.9rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+    }
+}
